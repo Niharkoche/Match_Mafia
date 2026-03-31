@@ -1,0 +1,148 @@
+/* 🌍 Main Container */
+.container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  color: white;
+}
+
+/* 🎮 Title */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+/* 🧾 Input */
+.input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* 🔘 Buttons */
+.btn {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  background: #ff7b00;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff9800;
+  transform: scale(1.05);
+}
+
+/* ▶️ Start Button */
+.startBtn {
+  padding: 12px;
+  background: #00c853;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.startBtn:hover {
+  transform: scale(1.05);
+}
+
+/* 📊 Info Box */
+.infoBox {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* 👥 Player Grid */
+.playersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+/* 🧍 Player Card */
+.playerCard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+}
+
+/* 🃏 Cards Row */
+.cardsRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* 🎴 Individual Card */
+.card {
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  color: black;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ✨ Selected Card Animation */
+.card.selected {
+  transform: scale(1.2);
+  background: lightblue;
+}
+
+/* 🎯 Give Button */
+.giveBtn {
+  margin-top: 10px;
+  padding: 8px;
+  background: #ff1744;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.giveBtn:hover {
+  background: #ff5252;
+}
+
+/* 🏆 Winner */
+.winner {
+  text-align: center;
+  margin-top: 20px;
+  color: gold;
+  font-size: 1.8rem;
+}
+
+/* 💬 Chat Box */
+.chatBox {
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* 💬 Messages */
+.chatMessages {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+/* ✍️ Chat Input */
+.chatInputBox {
+  display: flex;
+  gap: 10px;
+}
